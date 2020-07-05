@@ -1,0 +1,23 @@
+.container {
+	background: #aaa;
+	margin: 5rem;
+	font-size: 3rem;
+	padding: 3rem;
+	position: relative;
+}
+.item1 {
+	background-color: red;
+	/* position: relative; */
+	position: absolute;
+	/* top: 1rem; */
+	top: 0;
+}
+.item2 {
+	background-color: blue;
+	/* position: fixed; */
+	position: sticky;
+	top: 0px;
+}
+.item3 {
+	background-color: green;
+}
