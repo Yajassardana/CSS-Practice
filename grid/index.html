@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid</title>
+  <style>
+    .container{
+      display: grid;
+      /* column division */
+      
+      grid-template-columns: 70% 30%;
+
+      column-gap: 1em; 
+    }
+    .container div{
+      background: #eee;
+      padding: 1em;
+    }
+    .container div:nth-child(odd){
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit quis repudiandae omnis amet. Unde possimus id error. Perferendis reiciendis aspernatur quod exercitationem fugiat autem? Culpa, sint facere distinctio obcaecati dignissimos neque minus esse possimus laudantium illum suscipit corporis eaque dolorum quas deleniti quisquam saepe placeat temporibus eum reiciendis, ab delectus ratione. Odit id consequuntur laudantium ducimus, tenetur odio quam error quas fuga possimus recusandae cum sit mollitia ipsum quos! Tempora nemo nobis asperiores magnam, labore odio quo illum possimus dolorum quibusdam magni, esse repudiandae? Quis, eius suscipit. Dolorem eum iste molestiae fugit explicabo cum earum aliquam. Quia, iure quam. Incidunt.</div>
+
+  <div>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, id. Sit, sed! Earum, provident fugit quidem dolorem at dolores. Veniam dolor facilis reprehenderit voluptates reiciendis excepturi ipsum quisquam optio porro nihil corrupti assumenda quos quis consequatur, quod, praesentium ea amet fugiat recusandae omnis necessitatibus earum tempora odit? Dicta, ratione reiciendis.
+  </div>
+  <div>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, id. Sit, sed! Earum, provident fugit quidem dolorem at dolores. Veniam dolor facilis reprehenderit voluptates reiciendis excepturi ipsum quisquam optio porro nihil corrupti assumenda quos quis consequatur, quod, praesentium ea amet fugiat recusandae omnis necessitatibus earum tempora odit? Dicta, ratione reiciendis.
+  </div>
+  <div>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, id. Sit, sed! Earum, provident fugit quidem dolorem at dolores. Veniam dolor facilis reprehenderit voluptates reiciendis excepturi ipsum quisquam optio porro nihil corrupti assumenda quos quis consequatur, quod, praesentium ea amet fugiat recusandae omnis necessitatibus earum tempora odit? Dicta, ratione reiciendis.
+  </div>
+</div>
+</body>
+</html>
