@@ -1,0 +1,8 @@
+bootstrap
+768 sm
+phone 500 max
+ipad 768 max
+1080 new ipads
+lg above lg
+1400
+xl
