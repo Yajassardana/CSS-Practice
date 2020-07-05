@@ -1,0 +1,9 @@
+/* em is relative to the font size in it's sudden parent element instead od the root element */
+.box {
+	font-size: 30px;
+}
+p {
+	font-size: 1em;
+	border: 0.1em black solid;
+	padding: 1em;
+}
