@@ -1,0 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.box {
+	background: blue;
+	/* 20vh = 20% of total view port height */
+	/* height: 100vh; */
+	/* similary 20vw = 20% of total view port width */
+	width: 50vw;
+}

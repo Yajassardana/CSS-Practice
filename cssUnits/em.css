@@ -1,4 +1,5 @@
 /* em is relative to the font size in it's sudden parent element instead od the root element */
+/* if no parent element exists, the the root html element will be considered as the parent element and rem will be = em */
 .box {
 	font-size: 30px;
 }
